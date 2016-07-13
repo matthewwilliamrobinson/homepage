@@ -54,7 +54,7 @@
     <div class ="jumbotron">
         <div class="container text-center">
             <h1>SB Webstore App</h1>
-            <p>PrestaShop ecommerce</p>
+            <p>PrestaShop eCommerce</p>
         </div> <!--End container -->
     </div> <!-- End Jumbotron -->
     
@@ -62,7 +62,7 @@
     <div class="container">
         <section>
             <div class="page-header" id="feedback">
-                <h2>Services.<small> ecommerce services </small></h2>
+                <h2>Services.<small> eCommerce services </small></h2>
             </div>
             
             <div class="row">
