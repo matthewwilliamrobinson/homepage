@@ -8,7 +8,7 @@ spit_template(function () { ?>
     <div class ="jumbotron">
         <div class="container text-center">
             <h1>SB Webstore App</h1>
-            <p>PrestaShop ecommerce</p>
+            <p>PrestaShop eCommerce</p>
         </div> <!--End container -->
     </div> <!-- End Jumbotron -->
     
@@ -16,7 +16,7 @@ spit_template(function () { ?>
     <div class="container">
         <section>
             <div class="page-header" id="feedback">
-                <h2>Services.<small> ecommerce services </small></h2>
+                <h2>Services.<small> eCommerce services </small></h2>
             </div>
             
             <div class="row">
@@ -46,8 +46,6 @@ spit_template(function () { ?>
                     potential. If anything is to ever go wrong our professional
                     staff will be available to contact at: (123-456-7890)
                 </div>
-
-
             </div><!-- End row -->
         </section>
     </div><!-- End Container -->
