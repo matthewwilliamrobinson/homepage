@@ -19,7 +19,6 @@ $DEST_ADDR = 'sam@samuelphillips.net';
 #   "reply-to"      The address of the sender.
 #   "full-name"     The full name of the sender.
 #   "body"          The body of the page.
-#   "return-url"    The URL that the return link will point to (HTML mode only).
 
 
 // I'm pretty sure this is what RFC 2822 wanted me to write...
