@@ -1,6 +1,5 @@
 <?php
 include_once('template.php');
-
 spit_template(function () { ?>
     
     <!-- jumbotron -->
