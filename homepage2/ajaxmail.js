@@ -112,8 +112,8 @@ $(document).ready(function() {
             "body": f_body.val()
         }, function (result) {
             if (result.status == "success") {
-                setmsg("success").text("Thanks for contacting us! We'll be " +
-                        "in touch real soon now.");
+                setmsg("success").text("Thanks for contacting us! We'll " +
+                        "keep in touch.");
                 [f_replyTo, f_fullName, f_body].forEach(function(f) {
                     f.val("");
                 });
@@ -121,7 +121,8 @@ $(document).ready(function() {
             } else if (result.status == "failure") {
                 setmsg("failure").html("Regrettably, we were unable to " +
                         "process your message. We apologize for the " +
-                        "inconvenience. As an alternative, try sending us " +
+                        "inconvenience. Please check the email that you are trying to contact."+
+                        "If the error continues, try sending us " +
                         "an email at " +
                         "<a href=\"" + htmlAttrEscape(createMailto({
                             address: "matthew.robinson@sbwebstore.com",
@@ -136,7 +137,7 @@ $(document).ready(function() {
                         seterr(form.find("[name=\"" + field + "\"]"));
                     }
                 }
-                setmsg("failure").text("Please complete the form.");
+                setmsg("failure").text("Please complete the form in its entirety.");
                 undisable(form);
             } else {
                 setmsg("failure").text("Please complete the form.").text(
@@ -144,9 +145,10 @@ $(document).ready(function() {
                 undisable(form);
             }
         }, "json").fail(function() {
-            setmsg("failure").text("The server couldn't be contacted. Are " +
-                    "you sure you're still connected to the Internet?");
+            setmsg("failure").text("The server couldn't be contacted. Please " +
+                    "check your internet connection and try again?");
             undisable(form);
         });
     });
 });
+
