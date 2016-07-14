@@ -1,3 +1,6 @@
+.ajax-mail button[type=submit] {
+    float: right;
+}
 .ajax-mail-errors {
     display: none;
 }
