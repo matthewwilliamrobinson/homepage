@@ -11,11 +11,11 @@ spit_template(function () { ?>
         </div> <!--End container -->
     </div> <!-- End Jumbotron -->
     
-    <!-- Feedback Section -->
+    <!-- Services Section -->
     <div class="container">
-        <section>
+        <section id=services>
             <div class="page-header" id="feedback">
-                <h2>Services.<small> eCommerce services </small></h2>
+                <h2>eCommerceServices</h2>
             </div>
             
             <div class="row">
@@ -31,22 +31,45 @@ spit_template(function () { ?>
                 <div class=col-lg-4>
                     <h4>Module</h4>
                     <p>A highly reliable and secure payment module that utilizes
-                    PAYMENTSYSTEM (PayPal?) which allows for a simple and
-                    efficient payment process.
+                    the payment processor of your choice. We design simple and
+                    efficient payment processes.
                 </div>
 
                 <div class=col-lg-4>
                     <h4>Hosting &amp; Server Administration</h4>
-                    <p>Once you have purchased our server, you will be in
-                    possession of a highly reliable service hosting. This
+                    <p>Once you have purchased our services, you will be in
+                    possession of highly reliable service hosting. This
                     capability will provide you with an efficient server which
-                    will enable your small business to reach it's full
-                    potential. If anything is to ever go wrong our professional
-                    staff will be available to contact at: (123-456-7890)
+                    will enable your small business to reach its full
+                    potential.
                 </div>
             </div><!-- End row -->
         </section>
     </div><!-- End Container -->
+
+    <!-- Team Section
+    <div class="container">
+        <section id=team>
+            <div class="page-header" id="feedback">
+                <h2>Our Team</h2>
+            </div>
+            <div class="row">
+                <div class=col-lg-4>
+                    <h4>Clay</h4>
+                    <p>Theme Development
+                </div>
+                <div class=col-lg-4>
+                    <h4>Rogelio</h4>
+                    <p>Module Development
+                </div>
+
+                <div class=col-lg-4>
+                    <h4>Sam</h4>
+                    <p>Server Administration
+                </div>
+            </div>
+        </section>
+    </div> End Container -->
         
     <!-- call to action -->
     <section id=contact>
@@ -80,5 +103,7 @@ spit_template(function () { ?>
             </div> <!-- end container -->
         </div> <!-- end well -->
     </section> <!-- end call to action -->
-       
+
+
+    
 <?php }); ?>
