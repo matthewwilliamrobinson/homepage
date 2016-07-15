@@ -23,17 +23,16 @@ spit_template(function () { ?>
                     <h4>Theme</h4>
                     <p>Provides a Professional & Approachable website theme that
                     even a novice could easily pick up and use. The website uses
-                    a INSERTCOLOR color palette and a FONTSTYLE font that makes
-                    the site visually appealing and highly accessible.
-                    Simplicity & Beauty are just some of this theme's defining
-                    characteristics.
+                    a color palette and a font that makes the site visually
+                    appealing and highly accessible.  Simplicity & Beauty are
+                    just some of this theme's defining characteristics.
                 </div>
 
                 <div class=col-lg-4>
                     <h4>Module</h4>
                     <p>A highly reliable and secure payment module that utilizes
                     PAYMENTSYSTEM (PayPal?) which allows for a simple and
-                    efficient payment process. 
+                    efficient payment process.
                 </div>
 
                 <div class=col-lg-4>
