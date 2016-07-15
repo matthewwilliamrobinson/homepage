@@ -4,9 +4,8 @@ spit_template(function () { ?>
     
     <!-- jumbotron -->
 
-    <div class ="jumbotron">
+    <div class="jumbotron">
         <div class="container text-center">
-            <img src="logo.svg">
             <h1>SB Webstore App</h1>
             <p>PrestaShop eCommerce</p>
         </div> <!--End container -->

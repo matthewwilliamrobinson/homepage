@@ -33,19 +33,17 @@ function spit_template($inner) {
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                 </button>
-                
-                <a href="" class="navbar-brand">SB Webstore</a>
+                <span class="navbar-left"><img src="logo.svg"></span>
+                <a href="/" class="navbar-brand">
+                    SB Webstore
+                </a>
             </div> <!-- end navbar header -->
             
             <div class="collapse navbar-collapse" id="navbar-collapse">
-            
-            
                 <ul class="nav navbar-nav">
-                    <li><a href="#Services">Feedback</a></li>
-                    <li><a href="#contact">ContactUs</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div> <!-- end Container -->

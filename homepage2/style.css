@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('montserrat-bold-normal.ttf');
-}
-
-@font-face {
-    font-family: 'Montserrat-Normal';
-    src: url('montserrat-normal-normal.ttf');
+.logo-bg {
+    background-image: url(logo.svg);
 }
 
 .ajax-mail button[type=submit] {
