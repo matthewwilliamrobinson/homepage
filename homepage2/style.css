@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('montserrat-bold-normal.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Normal';
+    src: url('montserrat-normal-normal.ttf');
+}
+
 .ajax-mail button[type=submit] {
     float: right;
 }

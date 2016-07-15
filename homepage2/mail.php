@@ -1,7 +1,7 @@
 <?php
 
 # This file is an API that will send an email to the address set below
-$DEST_ADDR = 'sam@samuelphillips.net';
+$DEST_ADDR = 'matthew.robinson@sbwebstore.com';
 
 # It returns a JSON object, which will look either like this:
 #   { "status": "success" }
