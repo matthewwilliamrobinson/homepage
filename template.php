@@ -35,7 +35,7 @@ function spit_template($inner) {
                     <span class="icon-bar"></span>
                 </button>
                 <span class="navbar-left"><img src="logo.svg"></span>
-                <a href="#" class="navbar-brand">
+                <a href="/" class="navbar-brand">
                     SB Webstore
                 </a>
             </div> <!-- end navbar header -->
