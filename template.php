@@ -17,6 +17,10 @@ function spit_template($inner) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link type="text/css" rel=stylesheet href="style.css">
 
+    <!-- icons -->
+    <?php include("apple-touch-icons.html") ?>
+    <!-- end icons -->
+
     <style>
         body{
             padding-top: 40px;
