@@ -1,0 +1,63 @@
+.logo-bg {
+    background-image: url(logo.svg);
+}
+
+.ajax-mail button[type=submit] {
+    float: right;
+}
+.ajax-mail-errors {
+    display: none;
+}
+.ajax-mail-errd {
+    display: unset; /* reverse display: none */
+    color: red;
+}
+.ajax-mail-errd:before, .ajax-mail-failure:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-image: url(iconalrt.png);
+}
+.ajax-mail-result-message {
+    display: none;
+}
+
+.ajax-mail-success {
+    display: unset; /* reverse display: none */
+    color: green;
+    background-color: lightgreen;
+}
+.ajax-mail-failure {
+    display: unset; /* reverse display: none */
+    color: red;
+    background-color: #f88;
+}
+
+.ajax-mail-failed-field {
+    border-color: red;
+    box-shadow: inset 0 0 6px rgba(100, 0, 0, 0.75);
+}
+
+/*All of this below was added by Clay*/
+
+.jumbotron
+{
+  background-color: #b2b2d8;
+}
+p
+{
+  font-style: italic;
+}
+.well
+{
+  background-color: #b2b2d8;
+}
+h4
+{
+  text-align: center;
+  font-weight: bold;
+}
+h3
+{
+  text-decoration: underline;
+}
