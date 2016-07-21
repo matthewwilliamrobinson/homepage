@@ -15,7 +15,7 @@ spit_template(function () { ?>
     <div class="container">
         <section id=services>
             <div class="page-header" id="feedback">
-                <h2>eCommerceServices</h2>
+                <h2>eCommerce Services</h2>
             </div>
             
             <div class="row">
