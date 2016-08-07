@@ -6,7 +6,7 @@ spit_template(function () { ?>
 
     <div class="jumbotron">
         <div class="container text-center">
-            <h1>SB Webstore App</h1>
+            <h1>SB Webstore</h1>
             <p>PrestaShop eCommerce</p>
         </div> <!--End container -->
     </div> <!-- End Jumbotron -->
@@ -20,28 +20,20 @@ spit_template(function () { ?>
             
             <div class="row">
                 <div class=col-lg-4>
-                    <h4>Theme</h4>
-                    <p>Provides a Professional & Approachable website theme that
-                    even a novice could easily pick up and use. The website uses
-                    a color palette and a font that makes the site visually
-                    appealing and highly accessible.  Simplicity & Beauty are
-                    just some of this theme's defining characteristics.
+                    <h4>Support</h4>
+                    <p>SB (Small Business) Webstore provides support for small to medium sized business.
+                    We can debug and address theme and module issues so that your web site is running smoothly.
+                    Our team will meet with you, determine your most pressing needs and fix or update as necessary.
                 </div>
-
                 <div class=col-lg-4>
-                    <h4>Module</h4>
-                    <p>A highly reliable and secure payment module that utilizes
-                    the payment processor of your choice. We design simple and
-                    efficient payment processes.
+                    <h4>Services</h4>
+                    <p>SB Webstore can work with you to go beyond your current theme to a fully customized theme.
+                    Our team will work with you to design a theme that meets your specific business needs.
                 </div>
-
                 <div class=col-lg-4>
                     <h4>Hosting &amp; Server Administration</h4>
-                    <p>Once you have purchased our services, you will be in
-                    possession of highly reliable service hosting. This
-                    capability will provide you with an efficient server which
-                    will enable your small business to reach its full
-                    potential.
+                    <p>We can assist on your current hosting environment or host you on our servers.
+                    Let us take care of working through any server issues so you can focus on your business.
                 </div>
             </div><!-- End row -->
         </section>
